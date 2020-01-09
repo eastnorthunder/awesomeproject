@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="name"></div>
+	<div class="age"></div>
+	<div class="test"></div>
+	<script>
+		window.onload = function() {
+			$.ajax({
+				type: "GET",
+				url: "http://localhost:8000/",
+				dataType: "json",
+				success: function(data) {
+					$(".name")[0].innerHTML = data.Name
+					$(".age")[0].innerHTML = data.Age
+				},
+				error: function(err) {
+					console.log(err)
+				}
+			})
+		}
+	</script>
+</body>
+</html>

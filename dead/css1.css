@@ -1,0 +1,73 @@
+img { 
+    float:left; clear: both;    
+    width:120px;   
+    height:120px;
+} 
+.um{
+    margin: auto;
+    background:#f2f2f2;
+    width:80%;
+}
+.list{
+    text-align: left;
+    list-style-type:none;
+}
+.olist{
+    text-align: left;
+    background-color: rgba(50, 54, 73, 0.507);
+}
+.decoration {
+    text-decoration:none;
+    cursor: pointer;
+}
+#header {
+    background-color:#2f435e;
+    color:white;
+    text-align:center;
+    padding:5px;
+    font-size: 80px;
+}
+#footer {
+    background-color:#2f435e;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+.button {
+    background-color: #2f435e;
+    color: #f2f2f2;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#lefter {
+    color: black;
+    margin: auto;
+    width: 300px;
+    height: 1000px;
+    border: 4px;
+    transition: 1s;
+    background:#f2f2f2;
+    font-size:20px;
+    float:left;
+    padding:10px;
+    line-height:80px;
+}
+#lefter dl dt:hover{
+    color:#f2f2f2;
+    background:gray;
+}
+.texter {
+    padding:10px;
+    width: 800px;
+}
+.picture {
+    line-height:30px;
+    background-color:#eeeeee;
+    float:left;
+    padding:5px;	      
+}
